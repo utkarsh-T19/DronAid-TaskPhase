@@ -1,0 +1,361 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    height: 100%;
+    font-size: 1vw;
+}
+
+/* Home page */
+#nav{
+    list-style-type: none; 
+}
+
+.navList {
+    display: inline;
+    font-size: 1.5em;
+    padding-right: 0.25em;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.headerBgImg{
+    width: 100%;
+    z-index: -10;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sticky {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 5em;
+}
+.navBar {
+    color: white;
+    margin-right: 3em;
+
+}
+.headerLogo {
+    height: 2rem;
+}
+main{
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    z-index: -10;
+}
+#section1 {
+    text-align: center;
+}
+.headerText {
+    position: absolute;
+    top: 5em;
+    width: 100%;
+    text-align:center;
+    font-size: 2.5em;
+    color: yellow;
+}
+
+#section2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.dronesButton {
+    margin-left: 30px;
+    margin-top: 60px;
+  }
+  
+.CTADrones {
+    scroll-behavior: smooth;
+    font-size: 0.75em;
+    color: #20bf6b !important;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 10px;
+    border: 4px solid #20bf6b !important;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+  }
+  
+.CTADrones:hover {
+    color: #494949 !important;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.6s ease 0s;
+  }
+.sec2div1{
+    margin: 2vh 0 2vh 0;
+    font-size: 4em;
+    text-align: center;
+    
+}
+.sec2{
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 2vh;
+}
+.sec2div2{
+    clear: both;
+    margin: 2vh 8em 0 8em;
+    font-size: 2.7em;
+    color: #C81010;
+}
+
+.sec2div3{
+    float: left;
+    text-align: right;
+    width: 35vw;
+    margin: 0 0 0 9em;
+    font-size: 1.5em;
+}
+
+.sec2div4 {
+    float: right;
+    text-align: left;
+    padding-top: 1.5em;
+    width: 35vw;
+    margin: 2vh 9em 0 0;
+    font-size: 1.5em;
+}
+
+.sec3div2 {
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 2vh;
+}
+
+/* .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 25em;
+    height: 25em;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    width: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  } */
+.hermesImg {
+    float: left;
+    height: 25em;
+    margin-left: 13.5em;
+    margin-bottom: 4em;
+    margin-top: 4em;
+}
+#hermes1 {
+    float: left;
+    height: 25em;
+}
+#hermes2{
+    display: none;
+    z-index: 99;
+    height: 25em;
+}
+.hermesImg:hover #hermes1 {
+    display: none;
+    transition-duration: 1s;
+}
+.hermesImg:hover #hermes2 {
+    display: inline;
+    transition-duration: 1s;
+}
+
+.zeusImg {
+        float: left;
+        height: 25em;
+        margin-left: 13.5em;
+        margin-bottom: 4em;
+        margin-top: 4em;
+    }
+    #zeus1 {
+        float: left;
+        height: 25em;
+    }
+    #zeus2{
+        display: none;
+        z-index: 99;
+        height: 25em;
+    }
+    .zeusImg:hover #zeus1 {
+        display: none;
+        transition-duration: 1s;
+    }
+    .zeusImg:hover #zeus2 {
+        display: inline;
+        transition-duration: 1s;
+    }
+    .zoranImg {
+        float: right;
+        height: 25em;
+        margin-right: 13.5em;
+        margin-bottom: 4em;
+        margin-top: 4em;
+    }
+    #zoran1 {
+        float: right;
+        height: 25em;
+    }
+    #zoran2{
+        display: none;
+        z-index: 99;
+        height: 25em;
+    }
+    .zoranImg:hover #zoran1 {
+        display: none;
+        transition-duration: 1s;
+    }
+    .zoranImg:hover #zoran2 {
+        display: inline;
+        transition-duration: 1s;
+    }
+    .apolloImg {
+        float: right;
+        height: 25em;
+        margin-right: 13.5em;
+        margin-bottom: 4em;
+        margin-top: 4em;
+    }
+    #apollo1 {
+        float: right;
+        height: 25em;
+    }
+    #apollo2{
+        display: none;
+        z-index: 99;
+        height: 25em;
+    }
+    .apolloImg:hover #apollo1 {
+        display: none;
+        transition-duration: 1s;
+    }
+    .apolloImg:hover #apollo2 {
+        display: inline;
+        transition-duration: 1s;
+    }
+
+.droneTextLeft {
+    width: 45vw;
+    height: 16.6em;
+    float: left;
+    font-size: 1.5em;
+    margin-left: 9em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.droneTextRight {
+    width: 45vw;
+    height: 16.6em;
+    float: right;
+    font-size: 1.5em;
+    margin-right: 9em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.droneNames {
+    text-align: center;
+    font-size: 2em;
+}
+
+.sec4div1 {
+    margin: 4em 10em 4em 10em;
+}
+
+.sponsorImg {
+    width: 25em;
+}
+
+/* About Us CSS */
+
+#section5 {
+    background-color: #002633;
+    overflow: hidden;
+    height: 45vh;
+    margin-bottom: 2vh;
+}
+
+#section8 {
+    background-color: #002633;
+    overflow: hidden;
+    height: 45vh;
+    margin-bottom: 2vh;
+}
+#section10 {
+    background-color: #002633;
+    overflow: hidden;
+    height: 45vh;
+    margin-bottom: 2vh;
+}
+.sec5div1 {
+    position: relative;
+    padding-left: 5em;
+    top: 3em;
+    width: 100%;
+    font-size: 2.5em;
+    color: yellow;
+}
+
+.sec6div1{
+    margin: 10vh 13.5vw 2vh 13.5vw;
+    font-size: 4em;
+    text-align:left;
+}
+
+.sec6div2 {
+    font-size: 1.5em;
+    margin: 2vh 9em 2vh 9em;
+    text-align: justify;
+}
+
+#applicationList {
+    font-size: 1.5em;
+    margin: 2vh 9em 2vh 9em;
+    padding-left: 1em;
+    list-style-type: disc;
+}
+
+
+/* CTA button CSS fly in drones imgs */
